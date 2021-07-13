@@ -166,6 +166,7 @@ then
 	echo "		<FREEZEDUR>$freezeduration</FREEZEDUR>"
 	echo "		<FREEZEPCT>$freezepercent</FREEZEPCT>"
 else
+	echo "          <THUMBCLASS>not monitored</THUMBCLASS>"
 	echo "		<FREEZEDUR>not monitored</FREEZEDUR>"
 	echo "		<FREEZEPCT>not monitored</FREEZEPCT>"
 fi
